@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+
+
+body {
+        background-image: url("https://images.alphacoders.com/207/thumb-1920-207783.jpg");
+        background-repeat: no-repeat;
+        background-color: 000000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #1A3458;
+  border: none;
+  color: #F6FCFC;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: georgia;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+<body>
+
+  <div style="position:absolute; top:250px; width:100%;">
+    <font size = "+7" color="F6FCFC">
+      <b> <center><font face="do hyeon">keku's recommendations</center></b>
+    </font>
+    <center/><button  onclick="location.href='https://users.wpi.edu/~kwheelock/anime.html'" class="button" style="vertical-align:middle"><span> start! </span></button></center>
+</div>
+
+
+
+  </body>
+</html>
